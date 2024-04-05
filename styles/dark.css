@@ -14,11 +14,18 @@
   --title-font: 'IBM Plex mono';
   --title-color: rgba(219, 0, 255, 1);
   --text-color: rgba(241, 178, 206, 1);
+  --title-block-text: rgba(0, 0, 40, 1);
   --title-shadow-color: rgba(255, 0, 112, 1);
   --decoration-color: rgba(255, 0, 112, 1);
+  --hover-color: rgba(255, 0, 112, 0.4);
+  --decoration-link: rgba(241, 178, 206, 1);
 
-  background-image: url(/images/cover-image-dark.png);
+  background-image: url(../images/cover-image-dark.png);
 
+}
+
+.page.theme_dark .header_decoration {
+  display: block;
 }
 
 :root.theme-dark {
@@ -27,5 +34,9 @@
   --title-font: 'IBM Plex mono';
   --title-color: rgba(219, 0, 255, 1);
   --text-color: rgba(241, 178, 206, 1);
+  --title-block-text: rgba(0, 0, 40, 1);
+  --title-shadow-color: rgba(255, 0, 112, 1);
+  --decoration-color: rgba(255, 0, 112, 1);
+  --hover-color: rgba(255, 0, 112, 0.4);
+  --decoration-link: rgba(241, 178, 206, 1);
 }
-

@@ -3,41 +3,52 @@
   Здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
-
+.header_decoration.theme_ligh {
+  display: none;
+}
 
 .page.theme_light {
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
-  background-image: url(/images/cover-image-light.png);
+  background-image: url(../images/cover-image-light.png);
   
   --accent-color: rgba(255, 141, 203, 1);
-  --background-color: rgba(53, 52, 48, 1);
+  --background-color: rgba(255, 194, 230, 1);
   --title-font: 'IBM Plex mono';
-  --title-color: rgba(255, 141, 203, 1);
-  --title-shadow-color: rgba(255, 0, 112, 1);
+  --title-color: rgba(255, 194, 230, 1);
+  --title-shadow-color: rgba(255, 141, 203, 1);
   --text-color: rgba(53, 52, 48, 1);
   --decoration-color:  rgba(53, 52, 48, 1);
+  --title-block-text: rgba(53, 52, 48, 1);
+  --hover-color: rgba(50, 49, 45, 0.4);
+  --decoration-link: rgba(53, 52, 48, 1);
 }
 
 .page.theme_light .header_decoration {
-  display:none;
+  display: none;
 }
-
 
 @media (prefers-color-scheme: light) {
   :root {
-    --accent-color: rgba(255, 141, 203, 1);
-  --background-color: rgba(53, 52, 48, 1);
+  --accent-color: rgba(255, 141, 203, 1);
+  --background-color: rgba(255, 194, 230, 1);
   --title-font: 'IBM Plex mono';
-  --title-color: rgba(255, 141, 203, 1);
-  --title-shadow-color: rgba(255, 0, 112, 1);
+  --title-color: rgba(255, 194, 230, 1);
+  --title-shadow-color: rgba(255, 141, 203, 1);
   --text-color: rgba(53, 52, 48, 1);
   --decoration-color:  rgba(53, 52, 48, 1);
+  --title-block-text: rgba(53, 52, 48, 1);
+  --hover-color: rgba(50, 49, 45, 0.4);
+  --decoration-link: rgba(53, 52, 48, 1);
   }
   
 .page {
-  background-image: url(/images/cover-image-light.png);
-}
+  background-image: url(../images/cover-image-light.png);
+  }
+
+  .header_decoration {
+    display: none;
+  }
 }
