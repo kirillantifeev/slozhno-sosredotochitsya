@@ -10,8 +10,9 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   --accent-color: rgba(255, 0, 112, 1);
+  --title-text: rgba(0, 0, 40, 1);
   --background-color: rgba(0, 0, 40, 1);
-  --title-font: 'IBM Plex mono';
+  --title-font: "IBM Plex mono", "Arial", sans-serif;
   --title-color: rgba(219, 0, 255, 1);
   --text-color: rgba(241, 178, 206, 1);
   --title-block-text: rgba(0, 0, 40, 1);
@@ -30,8 +31,9 @@
 
 :root.theme-dark {
   --accent-color: rgba(255, 0, 112, 1);
+  --title-text: rgba(0, 0, 40, 1);
   --background-color: rgba(0, 0, 40, 1);
-  --title-font: 'IBM Plex mono';
+  --title-font: 'IBM Plex mono', "Arial", sans-serif;
   --title-color: rgba(219, 0, 255, 1);
   --text-color: rgba(241, 178, 206, 1);
   --title-block-text: rgba(0, 0, 40, 1);
