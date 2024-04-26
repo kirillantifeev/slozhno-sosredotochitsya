@@ -20,9 +20,7 @@
   --decoration-color: rgba(255, 0, 112, 1);
   --hover-color: rgba(255, 0, 112, 0.4);
   --decoration-link: rgba(241, 178, 206, 1);
-
   background-image: url(../images/cover-image-dark.png);
-
 }
 
 .page.theme_dark .header_decoration {
